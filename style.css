@@ -1,0 +1,19 @@
+.header {
+    background-color: #1F2936;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+p {
+    color: white;
+    padding: 0px 25px;
+}
+
+.links {
+    display: flex;
+    align-self: flex-end;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
