@@ -1,4 +1,6 @@
-
+body {
+    margin: 0;
+}
 
 .header {
     background-color: #1F2936;
@@ -73,7 +75,31 @@
   }
 
   .text-box {
-    padding: 10px;
+    display: flex;
+    padding: 50px;
+    /* margin: auto; */
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .last-part {
+    display: flex;
+  }
+
+  .cta {
+    background-color: lightblue;
+    padding: 50px;
     margin: auto;
     width: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .footer {
+    display: flex;
+    background-color: #1F2936;
+    text-align: center;
+    color: white;
   }
