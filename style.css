@@ -3,16 +3,16 @@
 .header {
     background-color: #1F2936;
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    flex-shrink: 0;
-    flex-grow: 0;
-    gap: 10px;
+    padding: 0px 90px;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
 }
 
 p {
     color: white;
-    padding: 0px 25px;
 }
 
 .links {
@@ -20,9 +20,23 @@ p {
     align-self: flex-end;
     flex-grow: 1;
     justify-content: flex-end;
+    gap: 10px
 }
 
 .break {
     flex-basis: 100%;
     height: 0;
+  }
+
+  .content {
+    display: flex;
+    padding-top: 90px;
+  }
+
+  .content-image {
+        display: flex;
+    align-self: flex-end;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 10px
   }
