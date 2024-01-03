@@ -54,6 +54,9 @@ body {
     flex-grow: 0.5;
     gap: 10px;
     justify-content: space-around;
+    background-image: url(./images/dice.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     
     
   }
