@@ -47,14 +47,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 
   .image-boxes {
     display: flex;
-    gap: 25%;
+    gap: 10%;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  img {
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+    width: 200px;
+    height: 150px;
   }
 
   .third-part {
     background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-box {
+    padding: 10px;
+    margin: auto;
+    width: 50%;
   }
